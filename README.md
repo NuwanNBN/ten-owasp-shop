@@ -21,10 +21,12 @@ This platform will be easy to use, as the project comes with detailed documentat
 
 ## Technologies
 
-The project is built using Node, Express on the backend and HTML,CSS on the frontend.
-The project utilizes a SQL database for data storage.
-We use Docker,Docker Compose containerization technology to package the project and make it easily deployable in different environments.
-The project also makes use of various security tools to ensure the security of the application.
+The project is built using 
+
+- Node JS for backend
+- HTML,CSS on the frontend.
+- SQL database for data storage.
+- Docker,Docker Compose as the containerization technology to package the project and make it easily deployable in different environments.
 
 ## Goal
 
