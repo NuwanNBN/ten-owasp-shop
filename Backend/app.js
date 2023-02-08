@@ -1,8 +1,10 @@
 import express from "express";
 import { getUsers, getUser, createUser } from "./database.js";
+var cors = require("cors");
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 //Get all users
 app.get("/users", async (req, res) => {
